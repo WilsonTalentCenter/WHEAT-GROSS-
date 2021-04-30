@@ -9,6 +9,7 @@ private int level;
 private double PlayerXP;
 private int potions;
 private int gold;
+private int invspace;
 
 public Player(){
     this.level = 1;
@@ -18,6 +19,7 @@ public Player(){
     potions = 3;
     gold = 0;
     PlayerXP = 0;
+    invspace = 20;
 }
 private double getHealth(){return health;}
 private double getDefense(){return defense;}

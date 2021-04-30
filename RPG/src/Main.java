@@ -52,12 +52,21 @@ public class Main {
 			 * System.out.println("Right off the bat you know this merchant is not human. He seems to have the body structure and features of a turtle.");
 			 * System.out.println("On his shell, he has a pack of various wares and knick-knacks. As well as on a sash he wears over his white coat and blue shirt.");
 			 * System.out.println("Now the various wares are turtle themed, and at such a small size!");
-			 * System.out.println("Now that you have a vague idea of who this 'man' is, do you talk, or fight the merchant?");
+			 * System.out.println("Now that you have a vague idea of who this 'man' is, do you talk, or fight or pass this merchant?");
 			 * decision = choice.nextLine();
 			 * }
 			 * if(decision.equalsIgnoreCase("talk"){
-			 * We'll  need an array of 4 options for dialogue selection...
+			 * We'll  need an array of 4 options for dialogue selection, as well as an array for the items sold by this merchant, or we could use some key phrases to trigger responses...
 			 * }
+			 * if(decision.equalsIgnoreCase("fight"){
+			 * System.out.println("You ready a stance suggesting combat, yet the merchant seems unphased by this.");
+			 * System.out.println("In fact, it seems as though he was expecting a conflict. Be wary");
+			 * System.out.println("You engage in combat with the Turtle Merchant!");
+			 * }
+			 * if(decision.equalsIgnoreCase("pass"){
+			 * System.out.println("");
+			 * System.out.println("You have decided that this merchant is no interest to you, and move along the path, eager to arrive in town, or find something else.")
+			 * And then Evan can type his prints and story here, or before this. I honestly don't care. 
 			 */
 			//Now for setting up some classes. We'll only need a Player class, a Turtle class, and a PetTurtle class. If you need any help with setting this up, take a look at the adv-objects assignment
 			//I'll work on getting some basic stats for the player, as well as combat initiation. All I ask is for whoever plans on working in the Turtle and PetTurtle Class, to give the turtle low health and high defense, as well as a poison debuff, or something.
