@@ -16,7 +16,8 @@ public class Main {
 			System.out.println("Looking around, you awe at the majesty of a sign. This sign holds knowledge of the paths set before you.");
 			System.out.println("Examining the sign, you read that the right prong is only labeled as 'ADVENTURE!', and the left reads 'To Chamell'");
 			System.out.println("Now that you are blessed by the knowledge of the sign, do you go right, or left?");
-		}decision = choice.nextLine();
+			decision = choice.nextLine();
+		}
 		if(decision.equalsIgnoreCase("Right")){
 			System.out.println("");
 			System.out.println("Ah! An adventurer enters the realm! Taking the right prong, you find a turtle!");
@@ -27,7 +28,8 @@ public class Main {
 				System.out.println("Examining the turtle, you realize that this is a very teeny turtle. Vary small. It is a miracle it got from the ocean to the forest.");
 				System.out.println("You determine, based on the fact that this tiny turtle isn't dead, that it is quite durable, and would be a valuable ally.");
 				System.out.println("Or a prized kill... So, do you befriend, fight, or pass this turtle?");
-			}decision = choice.nextLine();
+				decision = choice.nextLine();
+			}
 			if(decision.equalsIgnoreCase("Befriend")){
 				System.out.println("");
 				System.out.println("You decide to engage in diplomatic relations with the turtle and have agreed in alliance.");
@@ -41,6 +43,22 @@ public class Main {
 				System.out.println("");
 				System.out.println("Seeing the turtle, you know the bad times won't be bad, and move on, blessed by the turtle's presence.");
 			}
+			/**
+			 * if(decision.equalIgnoreCase("Left"){
+			 * System.out.println("");
+			 * System.out.println("On your voyage to Chamell, you encounter a merchant of interesting attire.");
+			 * System.out.println("Do you talk with the merchant, examine the merchant, or fight the merchant");
+			 * if(decision.equalIgnoreCase("examine"){
+			 * System.out.println("Right off the bat you know this merchant is not human. He seems to have the body structure and features of a turtle.");
+			 * System.out.println("On his shell, he has a pack of various wares and knick-knacks. As well as on a sash he wears over his white coat and blue shirt.");
+			 * System.out.println("Now the various wares are turtle themed, and at such a small size!");
+			 * System.out.println("Now that you have a vague idea of who this 'man' is, do you talk, or fight the merchant?");
+			 * decision = choice.nextLine();
+			 * }
+			 * if(decision.equalsIgnoreCase("talk"){
+			 * We'll  need an array of 4 options for dialogue selection...
+			 * }
+			 */
 			//Now for setting up some classes. We'll only need a Player class, a Turtle class, and a PetTurtle class. If you need any help with setting this up, take a look at the adv-objects assignment
 			//I'll work on getting some basic stats for the player, as well as combat initiation. All I ask is for whoever plans on working in the Turtle and PetTurtle Class, to give the turtle low health and high defense, as well as a poison debuff, or something.
 			//Now that I'm thinking about it, I think we should label all the hostile entities as enemies, and put the names and stats of each in that class... Lemme know what you guys think of that.
