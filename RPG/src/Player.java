@@ -17,7 +17,7 @@ public Player(){
     defense = 8;
     attack = 15;
     potions = 3;
-    gold = 0;
+    gold = 100;
     PlayerXP = 0;
     invspace = 20;
 }
