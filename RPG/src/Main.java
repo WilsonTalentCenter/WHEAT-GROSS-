@@ -66,7 +66,7 @@ public class Main {
 			 * if(decision.equalsIgnoreCase("pass"){
 			 * System.out.println("");
 			 * System.out.println("You have decided that this merchant is no interest to you, and move along the path, eager to arrive in town, or find something else.")
-			 * And then Evan can type his prints and story here, or before this. I honestly don't care. 
+			 * And then Evan can type his prints and story here, or before this. I honestly don't care.
 			 */
 			//Now for setting up some classes. We'll only need a Player class, a Turtle class, and a PetTurtle class. If you need any help with setting this up, take a look at the adv-objects assignment
 			//I'll work on getting some basic stats for the player, as well as combat initiation. All I ask is for whoever plans on working in the Turtle and PetTurtle Class, to give the turtle low health and high defense, as well as a poison debuff, or something.
