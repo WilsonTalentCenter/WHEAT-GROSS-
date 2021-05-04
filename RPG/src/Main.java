@@ -26,13 +26,15 @@ public class Main {
 			if(decision.equalsIgnoreCase("Examine")){
 				System.out.println("");
 				System.out.println("Examining the turtle, you realize that this is a very teeny turtle. Vary small. It is a miracle it got from the ocean to the forest.");
-				System.out.println("You determine, based on the fact that this tiny turtle isn't dead, that it is quite durable, and would be a valuable ally.");
+				System.out.println("Continuing to analyze the turtle, you see it has a cannon, complete with a squirell operator");
+				System.out.println("Seeing this dynamic duo, you determine that the squirell operated turtle-tank could be a very valuable ally.");
 				System.out.println("Or a prized kill... So, do you befriend, fight, or pass this turtle?");
 				decision = choice.nextLine();
 			}
 			if(decision.equalsIgnoreCase("Befriend")){
 				System.out.println("");
 				System.out.println("You decide to engage in diplomatic relations with the turtle and have agreed in alliance.");
+				System.out.println("Although the turtle has agreed to ally with you, the squirell seems disgruntled.");
 				System.out.println("Congrats! A turtle has joined your party. Enjoy it");
 				//insert code to actually add the turtle as a party member (Might be found in PetTurtle class)
 			}else if(decision.equalsIgnoreCase("Fight")){
@@ -43,37 +45,37 @@ public class Main {
 				System.out.println("");
 				System.out.println("Seeing the turtle, you know the bad times won't be bad, and move on, blessed by the turtle's presence.");
 			}
-			/**
-			 * if(decision.equalIgnoreCase("Left"){
-			 * System.out.println("");
-			 * System.out.println("On your voyage to Chamell, you encounter a merchant of interesting attire.");
-			 * System.out.println("Do you talk with the merchant, examine the merchant, or fight the merchant");
-			 * if(decision.equalIgnoreCase("examine"){
-			 * System.out.println("Right off the bat you know this merchant is not human. He seems to have the body structure and features of a turtle.");
-			 * System.out.println("On his shell, he has a pack of various wares and knick-knacks. As well as on a sash he wears over his white coat and blue shirt.");
-			 * System.out.println("Now the various wares are turtle themed, and at such a small size!");
-			 * System.out.println("Now that you have a vague idea of who this 'man' is, do you talk, or fight or pass this merchant?");
-			 * decision = choice.nextLine();
-			 * }
-			 * if(decision.equalsIgnoreCase("talk"){
-			 * We'll  need an array of 4 options for dialogue selection, as well as an array for the items sold by this merchant, or we could use some key phrases to trigger responses...
-			 * }
-			 * if(decision.equalsIgnoreCase("fight"){
-			 * System.out.println("You ready a stance suggesting combat, yet the merchant seems unphased by this.");
-			 * System.out.println("In fact, it seems as though he was expecting a conflict. Be wary");
-			 * System.out.println("You engage in combat with the Turtle Merchant!");
-			 * }
-			 * if(decision.equalsIgnoreCase("pass"){
-			 * System.out.println("");
-			 * System.out.println("You have decided that this merchant is no interest to you, and move along the path, eager to arrive in town, or find something else.")
-			 * And then Evan can type his prints and story here, or before this. I honestly don't care.
-			 */
-			//Now for setting up some classes. We'll only need a Player class, a Turtle class, and a PetTurtle class. If you need any help with setting this up, take a look at the adv-objects assignment
-			//I'll work on getting some basic stats for the player, as well as combat initiation. All I ask is for whoever plans on working in the Turtle and PetTurtle Class, to give the turtle low health and high defense, as well as a poison debuff, or something.
-			//Now that I'm thinking about it, I think we should label all the hostile entities as enemies, and put the names and stats of each in that class... Lemme know what you guys think of that.
 
 		}
-		}
+		/**Y'know what, I think Evan's Turtle house tale will be a continuation of the right path... Hell I think I'm the only one coding at tis point...
+		 * if(decision.equalIgnoreCase("Left"){
+		 * System.out.println("");
+		 * System.out.println("On your voyage to Chamell, you encounter a merchant of interesting attire.");
+		 * System.out.println("Do you talk with the merchant, examine the merchant, or fight the merchant");
+		 * if(decision.equalIgnoreCase("examine"){
+		 * System.out.println("Right off the bat you know this merchant is not human. He seems to have the body structure and features of a turtle.");
+		 * System.out.println("On his shell, he has a pack of various wares and knick-knacks. As well as on a sash he wears over his white coat and blue shirt.");
+		 * System.out.println("Now the various wares are turtle themed, and at such a small size!");
+		 * System.out.println("Now that you have a vague idea of who this 'man' is, do you talk, or fight or pass this merchant?");
+		 * decision = choice.nextLine();
+		 * }
+		 * if(decision.equalsIgnoreCase("talk"){
+		 * We'll  need an array of 4 options for dialogue selection, as well as an array for the items sold by this merchant, or we could use some key phrases to trigger responses...
+		 * }
+		 * if(decision.equalsIgnoreCase("fight"){
+		 * System.out.println("You ready a stance suggesting combat, yet the merchant seems unphased by this.");
+		 * System.out.println("In fact, it seems as though he was expecting a conflict. Be wary");
+		 * System.out.println("You engage in combat with the Turtle Merchant!");
+		 * }
+		 * if(decision.equalsIgnoreCase("pass"){
+		 * System.out.println("");
+		 * System.out.println("You have decided that this merchant is no interest to you, and move along the path, eager to arrive in town, or find something else.")
+		 * And then Evan can type his prints and story here, or before this. I honestly don't care.
+		 */
+		//Now for setting up some classes. We'll only need a Player class, a Turtle class, and a PetTurtle class. If you need any help with setting this up, take a look at the adv-objects assignment
+		//I'll work on getting some basic stats for the player, as well as combat initiation. All I ask is for whoever plans on working in the Turtle and PetTurtle Class, to give the turtle low health and high defense, as well as a poison debuff, or something.
+		//Now that I'm thinking about it, I think we should label all the hostile entities as enemies, and put the names and stats of each in that class... Lemme know what you guys think of that
+	}
 
 
     }

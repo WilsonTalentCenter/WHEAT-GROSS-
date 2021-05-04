@@ -9,17 +9,29 @@ public class PetTurtle {
     private boolean potion;
     private double attack;
     private double Cannon;
-    private double CannonAoE;
+    private double Squirellhealth;
+    private double Squirelldamage;
+    private double Squirelldefense;
+    private double SquirellFlintlock;
+    private int FlintlockAmmo;
+    private int CannonAmmo;
+
+
 
     public PetTurtle(){
         health = 2;
-        defense = 2000000000;
+        Squirellhealth = 30;
+        defense = 2000;
+        Squirelldefense = 15;
         XP = 0;
         level = 1;
         potion = false;
         attack = 711;
-        Cannon = 2000000000;
-        //CannonAoE =FIXME
+        SquirellFlintlock = 45;
+        FlintlockAmmo = 15;
+        Cannon = 20000;
+        CannonAmmo = 15;
+
     }
 }
 //I've decided on something: PetTurtle is the only companion. THERE SHALL ONLY BE TINY TURTLE!
