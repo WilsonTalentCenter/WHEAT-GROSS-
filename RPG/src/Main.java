@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	System.out.println("Welcome to the world of Dam!");
+	System.out.println("I am the gracious voice in your head! I am also known as 'Damnable creature'! You may call me Bailey O'Brownian!");
 	System.out.println("You are a man. A man on a mission!");
 	System.out.println("This mission is to have the biggest numbers that ever numbered!");
 	System.out.println("To complete this mission; you will kill things, read words like an English Major, and play the ultimate game of pretend!");
@@ -11,6 +12,13 @@ public class Main {
 	System.out.println("Your journey begins on the road, and the first decision comes to you on a fork. Do you go left, right, or look around?");
 		Scanner choice = new Scanner(System.in);
 		String decision = choice.nextLine();
+		if(decision.equalsIgnoreCase("fuck")){
+			System.out.println("");
+			System.out.println("CONGRATULATIONS! YOU WON!");
+			System.out.println("You beat the English Majors at their own game!");
+			System.out.println("This calls for rum!");
+			System.out.println("I like rum");
+		}
 		if(decision.equalsIgnoreCase("Look Around")){
 			System.out.println("");
 			System.out.println("Looking around, you awe at the majesty of a sign. This sign holds knowledge of the paths set before you.");
@@ -58,7 +66,7 @@ public class Main {
 			System.out.println("Rum");
 			System.out.println("Passing through");
 			decision = choice.nextLine();
-			if(decision.equalsIgnoreCase("Rest")){
+			if(decision.equalsIgnoreCase("Rest")) {
 				System.out.println("");
 				System.out.println("Looking around, you find the inn and open the door.");
 				System.out.println("You go towards the innkeeper");
@@ -68,7 +76,7 @@ public class Main {
 				System.out.println("Converse");
 				System.out.println("Leave");
 				decision = choice.nextLine();
-				if(decision.equalsIgnoreCase("Examine")){
+				if (decision.equalsIgnoreCase("Examine")) {
 					System.out.println("");
 					System.out.println("Looking around, you see that, for a small farming village, this inn is in quite an admirable condition.");
 					System.out.println("Although that could be because of it's rather small size.");
@@ -78,26 +86,100 @@ public class Main {
 					System.out.println("Converse");
 					System.out.println("Leave");
 					decision = choice.nextLine();
-					if(decision.equalsIgnoreCase("Rest")){
+					if (decision.equalsIgnoreCase("Rest")) {
 						System.out.println("");
 						System.out.println("Hucklefurd: Alright, that'll be 10 coin.");
 						//code for paying this kind innkeeper
 						System.out.println("You get a good night's rest and are ready to take on the day!");
-						System.out.println("After thanking Hucklefurd for a place to rest, you fnid yourself in the lobby, watching Hucklefurd sort his potatoes with grace and skill.");
+						System.out.println("After thanking Hucklefurd for a place to rest, you find yourself in the lobby, watching Hucklefurd sort his potatoes with grace and skill.");
 						System.out.println("Now what?");
 						System.out.println("");
 						System.out.println("Converse");
 						System.out.println("Leave");
-						decision=choice.nextLine();
-						if(decision.equalsIgnoreCase("Converse")){
+						decision = choice.nextLine();
+					}
+					if (decision.equalsIgnoreCase("Converse")) {
+						System.out.println("");
+						System.out.println("Hucklefurd: What is it ye wanta know?");
+						System.out.println("");
+						System.out.println("Chamell");
+						System.out.println("Politics");
+						System.out.println("Life Story");
+						decision = choice.nextLine();
+						if (decision.equalsIgnoreCase("Chamell")) {
 							System.out.println("");
-							System.out.println("Hucklefurd: What is it ye wanta know?");
-							System.out.println("");
-							System.out.println("Chamell");
+							System.out.println("Hucklefurd: Well, in case you didn't look, we're a small town. We only have a farm and if you was plannin at peekin the bounty board, don't.");
+							System.out.println("Why?");
+							System.out.println("Ok.");
+							decision = choice.nextLine();
+							if (decision.equalsIgnoreCase("Why?")) {
+								System.out.println("Hucklefurd: Well, the bounties are other folk. He who controls the land controls the town. And I for one don't care for politics.");
+
+							} else {
+								System.out.println("");
+
+							}
+							System.out.println("Hucklefurd: Now, is there anything else I can do fur ye?");
 							System.out.println("Politics");
 							System.out.println("Life Story");
+							System.out.println("Leave");
+							decision = choice.nextLine();
+							if (decision.equalsIgnoreCase("Politics")) {
+								System.out.println("");
+								System.out.println("Hucklefurd:I'm not one for politics, makes me head spin. That's also why I keep from the board outside. Disgraceful.");
+								System.out.println("Life Story");
+								System.out.println("Leave");
+								decision = choice.nextLine();
+							}
+							if (decision.equalsIgnoreCase("Life Story")) {
+								System.out.println("");
+								System.out.println("Hucklefurd:I've never really been asked about me life.");
+								System.out.println("But, if ye must know, I've been in Chamell all me life, known no other life than the life of an Innkeeper.");
+								System.out.println("And I honestly don't intend to learn another life.");
+							}
 						}
 					}
+				}
+				System.out.println("");
+				System.out.println("You bid farewell to Hucklefurd, wishing him luck and good fortune.");
+				System.out.println("Now you are back on the main road of Chamell, what now?");
+				System.out.println("Work");
+				System.out.println("Rum");
+				System.out.println("Passing Through");
+			}
+			if(decision.equalsIgnoreCase("Work")){
+				System.out.println("");
+				System.out.println("You walk towards the bounty board, and see only two posters.");
+				System.out.println("Examining the posters, you realize they read the same last name, and then you hear two doors open");
+				System.out.println("Peasant 1:YOU'LL NEVER TAKE ME POTATOES!");
+				System.out.println("Peasant 2:THOSE POTATOES ARE AS MUCH MINE AS YOURS, YOU GREEDY HARLOT!");
+				System.out.println("Well, I guess that pretty much sums up the board, care to intervene or leave?");
+				decision=choice.nextLine();
+				if(decision.equalsIgnoreCase("Intervene")){
+					System.out.println("");
+					System.out.println("You step between the neighbors and demand names");
+					System.out.println("Peasant 1: I am Cornelius Chuckle, rightful owner of this potato farm.");
+					System.out.println("Peasant 2: LIKE HELL IT IS! Me name is Cornwall Chuckle, and I work these fields for me and me family.");
+					System.out.println("Keep in mind you can leave at any point and let these filthy peasants kill each other.");
+					System.out.println("Help the peasants");
+					System.out.println("Rum");
+					System.out.println("Leave");
+				}
+			}
+			if(decision.equalsIgnoreCase("Rum")){
+				System.out.println("");
+				System.out.println("You look around and realize the only rum here is in potato form.");
+				System.out.println("One could 'borrow' the potatoes, or one could never enjoy the sweet taste of rum.");
+				System.out.println("Ask to borrow potatoes");
+				System.out.println("Take potatoes and make rum");
+				System.out.println("Live like a pleb (No rum)");
+				decision = choice.nextLine();
+				if(decision.equalsIgnoreCase("Ask")){
+					System.out.println("");
+					System.out.println("You knock on a door and a man appears.");
+					System.out.println("Peasant: Is there something you require?");
+					System.out.println("You explain your dire situation to this humble peasant.");
+					System.out.println("Peasant: No rum!? What kind of savage would go rum-free!? Please, take as many potatoes as needed!");
 				}
 
 
