@@ -181,7 +181,24 @@ public class Main {
 					System.out.println("You explain your dire situation to this humble peasant.");
 					System.out.println("Peasant: No rum!? What kind of savage would go rum-free!? Please, take as many potatoes as needed!");
 				}
-
+                if(decision.equalsIgnoreCase("Take")){
+					System.out.println("");
+					System.out.println("Finally! Some action!");
+					System.out.println("You take as many potatoes as possible and pull out the Rum-o-matic 400!");
+					System.out.println("As you make rum, a peasant spots you.");
+					System.out.println("Peasant: What are you doing with them potatoes?");
+					System.out.println("Lie");
+					System.out.println("Attack");
+					System.out.println("Truth");
+					System.out.println("Ignore");
+					decision=choice.nextLine();
+					if(decision.equalsIgnoreCase("Truth")){
+					    System.out.println("");
+					    System.out.println("You explain the dire situation at hand");
+					    System.out.println("Peasant: Ah, I understand. Although do ask, doing something like that can be real trouble.");
+					    System.out.println("The peasant leaves, and your rum is done!");
+                    }
+				}
 
 			}
 		}
