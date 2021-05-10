@@ -21,7 +21,7 @@ public class PetTurtle {
     public PetTurtle(){
         health = 2;
         Squirellhealth = 30;
-        defense = 2000;
+        defense = 2000; //add some upgrade function to +health and -defense.
         Squirelldefense = 15;
         XP = 0;
         level = 1;
