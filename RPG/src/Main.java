@@ -139,7 +139,11 @@ public class Main {
 							System.out.println("I like rum");
 							System.out.println("Any potions?");
 							System.out.println("Thanks, I'll take a look");
-							//decision=choice.nextLine();
+							decision=choice.nextLine();
+							if(decision.equalsIgnoreCase("Any potions?")){
+								System.out.println("");
+								System.out.println("Hucklefurd: Last I wes theyr, noe. But as I saed, it's ben 'wile.");
+							}
 						}
 					}
 				}
