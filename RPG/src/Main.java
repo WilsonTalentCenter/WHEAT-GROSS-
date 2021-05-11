@@ -101,7 +101,7 @@ public class Main {
 						System.out.println("");
 						System.out.println("Hucklefurd: As ye mite noetice, this is aye rather cawlm place.");
 						System.out.println("Hucklefurd: The boord outsied don offer much, but ye can git sumtin from it.");
-						System.out.println("Hucklefurd: Af cours, the problem wit teh boord, is the bountis ar against eachother, so ultimately, ye choos a sied.");
+						System.out.println("Hucklefurd: Af course, the problem wit teh boord, is the bounties ar against each other, so ultimately, ye choose a sied.");
 						System.out.println("Hucklefurd: Disgraceful.");
 						System.out.println("Hucklefurd: Now ten, is theyr anytin els?");
 						System.out.println("");
@@ -121,6 +121,7 @@ public class Main {
 						System.out.println("Chamell");
 						System.out.println("Politics");
 						System.out.println("Rum");
+						decision=choice.nextLine();
 					}
 					if(decision.equalsIgnoreCase("Chamell")){
 						System.out.println("");
@@ -138,13 +139,36 @@ public class Main {
 							System.out.println("");
 							System.out.println("I like rum");
 							System.out.println("Any potions?");
-							System.out.println("Thanks, I'll take a look");
+							System.out.println("Thanks, I'll take a look (leave to main road");
 							decision=choice.nextLine();
 							if(decision.equalsIgnoreCase("Any potions?")){
 								System.out.println("");
 								System.out.println("Hucklefurd: Last I wes theyr, noe. But as I saed, it's ben 'wile.");
+								System.out.println("Thanks, I'll take a look (leave to main road)");
+								System.out.println("You had me at rum.");
+								decision=choice.nextLine();
+								if(decision.equalsIgnoreCase("Thanks, I'll take a look")){
+									System.out.println("");
+									System.out.println("Hucklefurd: Glad I culd help.");
+									System.out.println("You and Hucklefurd exchange farewells and you find yourself back on the main road");
+								}
+								if(decision.equalsIgnoreCase("You had me at rum")){
+									System.out.println("");
+									System.out.println("Hucklefurd: Glad teh see anuther man who enjoys teh fiyner thins in loife.");
+									System.out.println("");
+									System.out.println("Work");
+									System.out.println("Life Story");
+									System.out.println("Politics");
+									System.out.println("Rum");
+								}
 							}
 						}
+					}decision=choice.nextLine();
+					if(decision.equalsIgnoreCase("Politics")){
+						System.out.println("");
+						System.out.println("Hucklefurd clears his throat, he must not want to repeat himself.");
+						System.out.println("Hucklefurd: I have not the stomach nor care for politics.");
+						System.out.println("Hucklefurd: I have seen what it has done to people and I am disgusted by it. The bounty board being a prime example.");
 					}
 				}
 			}
