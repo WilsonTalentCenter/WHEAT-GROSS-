@@ -169,6 +169,13 @@ public class Main {
 						System.out.println("Hucklefurd clears his throat, he must not want to repeat himself.");
 						System.out.println("Hucklefurd: I have not the stomach nor care for politics.");
 						System.out.println("Hucklefurd: I have seen what it has done to people and I am disgusted by it. The bounty board being a prime example.");
+						System.out.println("");
+						System.out.println("Who rules this land?");
+						System.out.println("Why exactly do you hate discussing politics?");
+						decision=choice.nextLine();
+						if(decision.equalsIgnoreCase("Who rules this land?")){
+
+						}
 					}
 				}
 			}
