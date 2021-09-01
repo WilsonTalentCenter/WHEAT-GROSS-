@@ -152,7 +152,7 @@ public class Main {
 									System.out.println("Hucklefurd: Glad I culd help.");
 									System.out.println("You and Hucklefurd exchange farewells and you find yourself back on the main road");
 								}
-								if(decision.equalsIgnoreCase("You had me at rum")){
+								if(decision.equalsIgnoreCase("I like rum")){
 									System.out.println("");
 									System.out.println("Hucklefurd: Glad teh see anuther man who enjoys teh fiyner thins in loife.");
 									System.out.println("");
@@ -182,7 +182,8 @@ public class Main {
 					System.out.println("");
 					System.out.println("You walk toward the bounty board and begin to look at the posters");
 					System.out.println("The only 2 bounties have the same last name, and have a rather high price of 1000 gold.");
-					System.out.println("As you're reading the");
+					System.out.println("As you're reading the posters, you hear two doors swing open, slamming the walls.");
+					System.out.println("Shall we observe, or ignore?");
 				}
 			}
 		}
