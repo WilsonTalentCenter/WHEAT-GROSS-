@@ -178,6 +178,12 @@ public class Main {
 						}
 					}
 				}
+				if(decision.equalsIgnoreCase("Work")){
+					System.out.println("");
+					System.out.println("You walk toward the bounty board and begin to look at the posters");
+					System.out.println("The only 2 bounties have the same last name, and have a rather high price of 1000 gold.");
+					System.out.println("As you're reading the");
+				}
 			}
 		}
 
