@@ -131,8 +131,7 @@ public class Main {
 						System.out.println("What kind of items?");
 						System.out.println("Neat, thanks!");
 						System.out.println("Didn't have a problem getting here, shouldn't have a problem at all.");
-						decision = choice.nextLine();
-						if(decision.equalsIgnoreCase("What kind of items?")){
+						if(decision.equalsIgnoreCase("Items")){
 							System.out.println("");
 							System.out.println("Hucklefurd: Ben a wile since I wes theyr, but I beeleev they haf a smoll selecshun of swords and armors.");
 							System.out.println("Rum, too.");
@@ -140,19 +139,17 @@ public class Main {
 							System.out.println("I like rum");
 							System.out.println("Any potions?");
 							System.out.println("Thanks, I'll take a look (leave to main road");
-							decision=choice.nextLine();
-							if(decision.equalsIgnoreCase("Any potions?")){
+							if(decision.equalsIgnoreCase("Potions?")){
 								System.out.println("");
 								System.out.println("Hucklefurd: Last I wes theyr, noe. But as I saed, it's ben 'wile.");
 								System.out.println("Thanks, I'll take a look (leave to main road)");
 								System.out.println("You had me at rum.");
-								decision=choice.nextLine();
 								if(decision.equalsIgnoreCase("Thanks, I'll take a look")){
 									System.out.println("");
 									System.out.println("Hucklefurd: Glad I culd help.");
 									System.out.println("You and Hucklefurd exchange farewells and you find yourself back on the main road");
 								}
-								if(decision.equalsIgnoreCase("I like rum")){
+								if(decision.equalsIgnoreCase("rum")){
 									System.out.println("");
 									System.out.println("Hucklefurd: Glad teh see anuther man who enjoys teh fiyner thins in loife.");
 									System.out.println("");
@@ -184,6 +181,17 @@ public class Main {
 					System.out.println("The only 2 bounties have the same last name, and have a rather high price of 1000 gold.");
 					System.out.println("As you're reading the posters, you hear two doors swing open, slamming the walls.");
 					System.out.println("Shall we observe, or ignore?");
+					if(decision.equalsIgnoreCase("Observe")){
+						System.out.println("");
+						System.out.println("As you waltz over, you see two peasants in rather dramatic poses");
+						System.out.println("Peasant 1: I shood hang ye where you stand, Scotcher!");
+						System.out.println("Peasant 2: You Rummies are all the sayme!");
+						System.out.println("So quick binary question: Do we really care enough to get involved?");
+						if(decision.equalsIgnoreCase("Yes")){
+							System.out.println("");
+							System.out.println("Ughh, FIIINE! Last time I ask you a question!");
+						}
+					}
 				}
 			}
 		}
